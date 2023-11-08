@@ -1,0 +1,80 @@
+body,
+html,
+#root,
+.canvas-container {
+    height: 100%;
+}
+
+.canvas-container {
+    font-family: sans-serif;
+    text-align: center;
+}
+.canvas {
+    margin: 0 auto;
+    background: lightgray;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.resizable {
+    width: 300px;
+    height: 170px;
+    position: absolute;
+    resize: both;
+    display: inline-block;
+    overflow: hidden;
+    background: steelblue;
+}
+
+.resizable:hover {
+    cursor: pointer;
+}
+
+.input-container {
+    background: darkgray;
+    height: 100px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container input {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 500px;
+}
+
+.input-container button {
+    height: 30px;
+    margin: 0 6px;
+    border-radius: 6px;
+}
+
+img {
+    object-fit: contain;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: darkslategray;
+    font-weight: 700;
+    margin: 6px 16px;
+}
+
+.error {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
